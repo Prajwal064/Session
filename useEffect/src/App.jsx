@@ -60,7 +60,7 @@ const App = () => {
     <div>
       <button onClick={getData}>Change card</button>
       {allpokemon.map(function(elem,idx){
-        return <h1 key={idx}>{elem.url}</h1>
+        return <h1 key={idx}>{elem.name}</h1>
 
       })}
       
